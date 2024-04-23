@@ -1,0 +1,401 @@
+@mixin display1 {
+  font-family: var(--font-chivo);
+  font-feature-settings: 'cpsp' on;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+%display1 {
+  @include display1;
+}
+
+@mixin display2 {
+  font-family: var(--font-chivo);
+  font-feature-settings: 'cpsp' on;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+%display2 {
+  @include display2;
+}
+
+@mixin heading1 {
+  font-family: var(--font-chivo);
+  font-feature-settings: 'cpsp' on;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116%;
+}
+
+%heading1 {
+  @include heading1;
+}
+
+@mixin heading2 {
+  font-family: var(--font-chivo);
+  font-feature-settings: 'cpsp' on;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116%;
+}
+
+%heading2 {
+  @include heading2;
+}
+
+@mixin heading3 {
+  font-family: var(--font-chivo);
+  font-feature-settings: 'cpsp' on;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116%;
+}
+
+%heading3 {
+  @include heading3;
+}
+
+@mixin heading4 {
+  font-family: var(--font-chivo);
+  font-feature-settings: 'cpsp' on;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 121%;
+}
+
+%heading4 {
+  @include heading4;
+}
+
+@mixin heading5 {
+  font-family: var(--font-chivo);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 121%;
+}
+
+%heading5 {
+  @include heading5;
+}
+
+@mixin paragraph1 {
+  font-family: var(--font-primary);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+%paragraph1 {
+  @include paragraph1;
+}
+
+@mixin paragraph2 {
+  font-family: var(--font-primary);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+%paragraph2 {
+  @include paragraph2;
+}
+
+@mixin paragraph3 {
+  font-family: var(--font-primary);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+%paragraph3 {
+  @include paragraph3;
+}
+
+@mixin paragraph4 {
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+%paragraph4 {
+  @include paragraph4;
+}
+
+@mixin title1 {
+  font-family: var(--font-primary);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 121%;
+}
+
+%title1 {
+  @include title1;
+}
+
+@mixin title2 {
+  font-family: var(--font-primary);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 121%;
+}
+
+%title2 {
+  @include title2;
+}
+
+@mixin title3 {
+  font-family: var(--font-primary);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 121%;
+}
+
+%title3 {
+  @include title3;
+}
+
+@mixin tagline1 {
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 121%;
+  text-transform: uppercase;
+}
+
+%tagline1 {
+  @include tagline1;
+}
+
+@mixin tagline2 {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 121%;
+  text-transform: uppercase;
+}
+
+%tagline2 {
+  @include tagline2;
+}
+
+@mixin tagline3 {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 121%;
+  text-transform: uppercase;
+}
+
+%tagline3 {
+  @include tagline3;
+}
+
+@mixin label1 {
+  font-family: var(--font-primary);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+%label1 {
+  @include label1;
+}
+
+@mixin label2 {
+  font-family: var(--font-primary);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+%label2 {
+  @include label2;
+}
+
+@mixin caption1 {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116%;
+}
+
+%caption1 {
+  @include caption1;
+}
+
+@mixin caption2 {
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116%;
+}
+
+%caption2 {
+  @include caption2;
+}
+
+@mixin caption3 {
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+%caption3 {
+  @include caption3;
+}
+
+@mixin caption4 {
+  font-family: var(--font-primary);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116%;
+}
+
+%caption4 {
+  @include caption4;
+}
+
+@mixin body1 {
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+%body1 {
+  @include body1;
+}
+
+@mixin body2 {
+  font-family: var(--font-primary);
+  font-feature-settings: 'cpsp' on;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+%body2 {
+  @include body2;
+}
+
+@mixin body3 {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+%body3 {
+  @include body3;
+}
+
+@mixin body4 {
+  font-family: var(--font-primary);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+%body4 {
+  @include body4;
+}
+
+@mixin body5 {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+%body5 {
+  @include body5;
+}
+
+@mixin link1 {
+  font-feature-settings: 'cpsp' on;
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+  text-decoration-line: underline;
+}
+
+%link1 {
+  @include link1;
+}
+
+@mixin link2 {
+  font-feature-settings: 'cpsp' on;
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  text-decoration-line: underline;
+}
+
+%link2 {
+  @include link2;
+}
+
+@mixin link3 {
+  font-feature-settings: 'cpsp' on;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  text-decoration-line: underline;
+}
+
+%link3 {
+  @include link3;
+}
+
+@mixin link4 {
+  font-feature-settings: 'cpsp' on;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  text-decoration-line: underline;
+}
+
+%link4 {
+  @include link4;
+}
