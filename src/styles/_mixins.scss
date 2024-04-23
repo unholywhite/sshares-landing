@@ -1,0 +1,97 @@
+@use 'media';
+
+@mixin side-paddings {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @include media.mobile {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  @include media.tablet {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  @include media.desktop {
+    padding-left: 76px;
+    padding-right: 76px;
+  }
+
+  @include media.desktop-lg {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+
+/*
+  @include media.desktop-hd {
+    padding-left: 336px;
+    padding-right: 336px;
+  }
+*/
+}
+
+@mixin ellipse-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin truncate-multiline($lineCount) {
+  /* stylelint-disable-next-line property-no-vendor-prefix */
+  -webkit-box-orient: vertical;
+  /* stylelint-disable-next-line value-no-vendor-prefix */
+  display: -webkit-box;
+  -webkit-line-clamp: $lineCount;
+  overflow: hidden;
+}
+
+@mixin placeholder {
+  &::placeholder {
+    @content;
+  }
+}
+
+@mixin centralize {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin clamp-lines($lines) {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  display: -webkit-box;
+  line-clamp: $lines;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+@mixin page-appear {
+  animation: appear 0.6s ease-out;
+
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@mixin block-appear {
+  animation: appear 0.3s ease-out;
+
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import '@styles/typography';
+
+.logo {
+  margin: 20px;
+  width: 224px;
+}
+
+.title {
+  @include display1;
+  margin: 20px;
+
+}
+
+.text {
+  @include paragraph1;
+  margin: 20px;
+}
+
+.icons {
+  column-gap: 20px;
+  display: flex;
+  margin: 20px;
+}
