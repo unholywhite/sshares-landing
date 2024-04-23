@@ -1,7 +1,7 @@
 import { Chivo, Outfit } from 'next/font/google';
 
 const chivo = Chivo({
-  weight: ['400'],
+  weight: ['700'],
   style: ['normal'],
   subsets: ['latin'],
   display: 'swap',
